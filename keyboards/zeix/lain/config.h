@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPI_DRIVER SPID1
 #define SPI_SCK_PIN GP26
 #define SPI_MOSI_PIN GP27
-#define SPI_MISO_PIN GP16 // dummy pin as NO_PIN somehow has issues with compiling for me
+#define SPI_MISO_PIN NO_PIN
 
 // LCD Config
 #define LCD_RST_PIN GP25
