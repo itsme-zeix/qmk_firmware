@@ -1,0 +1,5 @@
+QUANTUM_PAINTER_ENABLE = yes
+QUANTUM_PAINTER_DRIVERS += st7789_spi
+SRC += graphics/lain_image.qgf.c
+
+EXTRALDFLAGS = -Wl,--defsym,FLASH_LEN=8192k
